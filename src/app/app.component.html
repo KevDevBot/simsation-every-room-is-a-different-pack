@@ -32,13 +32,7 @@
         <ng-container matColumnDef="Icon">
           <th mat-header-cell *matHeaderCellDef></th>
           <td mat-cell *matCellDef="let room">
-            <img
-              [src]="
-                'assets/[panda-plumbobs] The Sims 4 Simple Icons/' +
-                room.pack.icon
-              "
-              class="pack-icon"
-            />
+            <img [src]="room.pack.icon" class="pack-icon" />
           </td>
         </ng-container>
 
